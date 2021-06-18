@@ -1,0 +1,78 @@
+body{
+    font-family: Times New Roman;
+}
+
+header{
+    text-align: center;
+    background-color: #E5E5E5;
+    margin:0px;
+    padding-top: 40px;
+}
+
+h2{
+    text-align: center;
+}
+
+.logo{
+    align-items: center;
+    width: 50px;
+    height: 70px;
+    left: 670px;
+    top: 21px;
+}
+
+main{
+    margin:0px
+    
+}
+
+h2, h3{
+    margin-top: 0px;       
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    background-color:#C4C4C4;
+    color: #005677;
+}
+
+
+section{
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+#datosPersonales{
+    margin-top: 80px;
+}
+
+.datosPers{
+    font-style: italic;
+    font-weight: bold;
+}
+
+.fechas{
+    font-weight: bold;
+}
+
+p{
+    line-height: 5px;
+    margin-left: 25px;
+}
+.margenParr{
+    margin-left: 105px ;
+}
+footer{
+    background-color: #005677;
+    height:37px;
+    align-items: center;
+    text-align: center;
+
+}
+footer h4{
+    font-size: 17px;
+    color:#FFFFFF;
+    text-align: center;    
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    padding-top: 8px;
+    letter-spacing: 5px;
+}

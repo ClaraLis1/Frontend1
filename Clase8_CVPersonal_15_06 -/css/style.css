@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
+
+
+body{
+    font-family: 'Nunito', sans-serif;
+    background-color: #faf6f6 ;
+
+}
+
+header{
+    text-align: center;
+    background-color: #E5E5E5;
+    margin:0px;
+    padding-top: 20px;
+    background-size: contain;
+    background-image: url(../img/banner3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#headPersonal{
+    padding-top: 120px;
+    display: flex;
+    
+}
+
+nav{
+    padding:10px;
+    justify-content: flex-end;
+    color: #C4C4C4;
+    background-color: grey;
+    width: 100%;
+    text-align: left;
+}
+a{
+    color: #C4C4C4;
+    box-shadow: 3px 6px 6px rgb(0 0 0 / 30%);
+    background-color: #504F6D;
+    text-decoration: none;
+}
+
+h2{
+    text-align: center;
+}
+
+.logo{
+    align-items: center;
+    width: 8%;
+    height: 95%;
+    left: 670px;
+    top: 21px;
+    border-radius: 20px;
+}
+
+main{
+    margin:0px
+    
+}
+
+h2, h3{
+    margin-top: 0px;       
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    background-color:#504F6D;
+    color: #C4C4C4;
+    box-shadow: 3px 6px 6px rgb(0 0 0 / 30%);
+}
+
+
+section{
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+
+#datosPersonales{
+    margin-top: 85px;
+}
+
+.datosPers{
+    font-style: italic;
+    font-weight: bold;
+}
+
+.fechas{
+    font-weight: bold;
+}
+
+p{
+    line-height: 5px;
+    margin-left: 25px;
+}
+
+.infoPersonal{
+    line-height: normal;
+}
+.margenParr{
+    margin-left: 120px ;
+}
+footer{
+    background-color: #504F6D;
+    height:37px;
+    align-items: center;
+    text-align: center;
+
+}
+footer .footer{
+    font-size: 17px;
+    color:#FFFFFF;
+    text-align: center;    
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    padding-top: 8px;
+    letter-spacing: 5px;
+}
+
+#github{
+    height: 20px;
+    width: 20px;
+}
