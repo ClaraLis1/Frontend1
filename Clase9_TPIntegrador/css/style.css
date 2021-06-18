@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    font-family: 'roboto', sans-serif
+}
+
+.navSup{
+    background-color: #222222;
+    color: #F3F3F3;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.navInf, .barraFooter{
+    margin-top: 0px;
+    background-color: #F0A83E;
+}
+.logo{
+    width: 166.38px;
+    height: 23px;
+    left: 40px;
+    top: 39px;
+}
+
+ul{
+    list-style: none;
+    padding-left: 0px;
+}
+
+.titulos, .itemDestacado, .menuDestacados{
+    color: #3C2313;
+}
+
+.contacto, .titulos, .menuDestacados, .copyRight{
+    text-align: center;
+}
+
+.imgbanner{
+    width: 1025px;
+    height: 409px;
+}
+
+#imgPatita{
+    margin-left: 45%;
+}
+
+.itemDestacado{
+    font-weight: bold;
+
+}
+
+.precioDestacado{
+    color: #F0A83E;
+    font-weight: bold;
+}
+
+main ul li, header ul li{
+    display: inline;
+    padding-left:3px;
+    padding-right: 3px;
+}
+
+a{
+    text-decoration: none;
+    color:#666666;
+}
+
+.destacados{
+    width: 265px;
+    height: 268.86px;
+}
+
+.footerList li{
+    padding-top: 50px;
+}
+
+footer{
+    background-color:#3C2313;
+    color: #FFFFFF;
+}
+
+#logoFooter{
+    margin-left: 80%;
+}
+
+.copyRight{
+    text-align: center;
+    background-color: #222222;
+    font-size: smaller;
+}
