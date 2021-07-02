@@ -62,7 +62,9 @@ article {
 
 
 .caja1, .caja2, .caja3, .caja4{   
-    
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 20px 20px 0px 0px;
     height: 193px;   
     margin: 0px 20px;
     position:relative;
@@ -70,11 +72,6 @@ article {
     justify-content: space-around;
 }
 
-.caja1, .caja2, .caja3, .caja4{
-    background-repeat: no-repeat;
-    background-size: contain;
-    border-radius: 20px 20px 0px 0px;
-}
 
 .caja1{
     background-image:url(../img/fondobatman.png);
@@ -99,7 +96,16 @@ article {
     width: 120px;
     height: 118px;
     z-index: 1;
-    
+    left: calc(50% - (118px / 2) ); 
+    top: calc (194px -(120ox / 2) );
+}
+
+ i{
+    color: red;
+    position: relative;
+    right: 100px;
+    top: 15px;
+    font-size: 30px;
 }
 
 .desc{    
@@ -119,10 +125,12 @@ article {
 
 }
 
-.parrafo{
+p.parrafo{
     padding: 10px 16px 104px 16px;
     text-align: left;
-    font-size: 14px;
+    font-size: 20px;
+    overflow-y:scroll;
+    height: 80px;
 }
 
 
@@ -160,6 +168,10 @@ footer img{
 }
 
 @media (max-width: 760px) {
+
+    article{
+        width: 40%;
+    }
   
     .descripcion{
         display:flex; 
@@ -175,14 +187,6 @@ footer img{
         box-sizing: border-box;
     }
 
-    article{
-       
-    }
-
-    
-     
-    
-     
 }
 
 @media (max-width: 420px) {
