@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>heroes</title>
+</head>
+<body>
+    <header>
+        <div class="navSup">
+            <p>Descuentos 20%</p>
+        </div>
+        <div class="logo">
+            <img src="/img/logo_tienda.png" alt="">
+            <p>Nombre Tienda</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="/views/contacto.html">Contacto</a></li>
+                <li><a href="/views/registrarme.html">Registrarme</a></li>
+                <li><a href="/views/login.html">Ingresar</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="agregar">
+            <article  class="secAñadir">
+                <div class="titulos">
+                    <h1>Añadí tu super!</h1>
+                    <p>Agregá tu personaje favorito completando las opciones.</p>
+                </div>    
+                <form action="/index.html" method="GET">
+                    <div class="añadir">
+                        <div class="leftAñadir">
+                            <label for="name">*Nombre</label>
+                            <input type="text" name="name" id="name">
+                            <label for="fecha">Fecha</label>
+                            <input type="date" name="fecha">
+                            <textarea name="" id="" cols="30" rows="10"></textarea>
+                        </div>    
+                        <div class="rightAñadir">
+                            <label for="especie">*Especie</label>
+                            <select name="especie" id="especie">
+                                <option hidden selected>Especie</option>
+                                <option value="unknown">Unknown</option>
+                                <option value="bat">Bat</option>
+                                <option value="human">Human</option>
+                            </select>
+                            <label for="foto">Agregar Foto</label>
+                            <input type="file" name="foto" accept=".jpg" multiple>
+                            <div class="checkbox">
+                                <legend>Poderes</legend>
+                                <input type="checkbox" name="poderes" value="Volar">
+                                <poderes">Volar</label><br>
+                                <input type="checkbox" name="poderes" value="SuperInteligencia">
+                                <label for="poderes">SuperInteligencia</label><br>
+                                <input type="checkbox" name="poderes" value="Vista de rayo láser">
+                                <label for="poderes">Vista de rayo láser</label><br>
+                                <input type="checkbox" name="poderes" value="Billetera gorda">
+                                <label for="poderes">Billetera gorda</label><br>
+                                <hr>
+                            </div>
+                            <div class="radioBox">
+                                <legend>Tipo de personaje</legend>
+                                <input type="radio" name="tipo" value="Héroe / Heroina">
+                                <label for="tipo">Héroe / Heroina</label><br>
+                                <input type="radio" name="tipo" value="Villano / Villana">
+                                <label for="tipo">Villano / Villana</label><br>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="añadirButton">
+                        <input type="submit" value="Añadir">
+                    </div>
+                </form>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Todos los derechos reservados a FRONT END 1</p>
+        <img src="/img/Github.png" alt="GitHub">
+    </footer>
+</body>
+</html>
