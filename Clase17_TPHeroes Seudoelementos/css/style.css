@@ -365,6 +365,7 @@ div.checkbox, div.radioBox{
 
 div.checkbox input, div.radioBox input{
     margin-top: 10px;
+    
 }
 
 
@@ -377,8 +378,14 @@ textarea{
 
 input[type=file]{
     color: black;
+    background-color: blue;
+   
 }
 
+.checkbox{
+    display: flex;
+    flex-direction: column;
+}
 legend{
     font-size: 0.9rem;
 }
