@@ -1,0 +1,115 @@
+/*-----------Keyframes----------*/
+
+ .mi-elemento {
+    width: 200px;
+      height: 200px;
+      position: relative;
+      border-radius: 100%;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+      animation-name: achicando;
+      animation-duration: 2s;
+      /* se puede poner todo en uno inifinite, alternate, achicando y duracion*/
+}
+      
+  @keyframes achicando {
+      0% {
+          background-color: salmon;
+      }
+
+      50% {
+          background-color: red;
+          
+      }
+      100% {
+          background-color: peachpuff;
+          /* height: 100px; */
+          width: 100px;
+          opacity: 0.5;
+      }
+
+    }        
+
+/*-------FIN Keyframes----------*/
+
+/*--------Transicion------ con hover*/
+
+.elemento{
+    width: 100px;
+    height: 100px;
+    background-color: salmon;
+    transition: border-radius 1s;
+    
+}
+
+.elemento:hover{
+    border-radius: 50%;
+}
+
+.elemento3{
+    width: 100px;
+    height: 100px;
+    background-color: salmon;
+    transition: transform 1s;
+    
+
+}
+
+.elemento3:hover{
+    transform: rotate(45deg);
+    transform: translatey(50px);
+    transform: skew(15deg);
+    transform: scale(2);
+    
+}
+
+/*--------FIN Transicion------*/
+
+button{
+    background-color: seagreen;
+    color: seashell;
+    transition: background 1s ease-in-out; /*Siempre va en el elemento*/
+    animation: mover 1.5s ease-in-out infinite alternate;
+}
+
+button:hover{
+    background: slateblue;
+    color: black;
+    
+}
+
+.button2{
+    background-color: seagreen;
+    color: seashell;
+    margin-top: 50px;
+    transition: transform 2s ease-in-out; /*Siempre va en el elemento*/
+    animation: mover 1s ease-in-out infinite alternate;
+}
+
+.button2:hover{
+    background: slateblue;
+    color: black;
+    transform: translateY(-30px); /* para que suba numeros negativos*/
+    transform:scale(0.5);
+    transform: rotate(180deg);
+    transform-origin: 0;
+}
+
+.button3{
+    animation: mover 2s ease-in-out infinite alternate;
+
+}
+
+@keyframes mover {
+    from {
+        background-color:salmon;
+        transform: translateX(0); /*Arranco con 0*/
+    }
+    
+    to {
+        background-color: violet;
+        transform: translateX(1200px);
+        
+    }
+
+  } 

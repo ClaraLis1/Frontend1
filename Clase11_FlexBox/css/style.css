@@ -1,0 +1,36 @@
+
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; /*sirve para el eje main*/
+    align-items: flex-end;
+    background-color:rgb(111, 96, 244);
+}
+
+.caja1, .caja2, .caja3, .caja4{
+    height: 100px;
+    width: 100px;
+}
+
+.caja1{
+    background: rgb(153, 231, 27);
+    order: 2;
+    
+}
+
+.caja2{
+    background: blue;
+    order: 1;
+}
+
+.caja3{
+    background: purple;
+    order:4;
+}
+
+.caja4{
+    background: pink;
+    order: 3;
+    align-self:flex-end;
+}
+

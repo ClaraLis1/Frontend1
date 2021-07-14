@@ -1,0 +1,68 @@
+nav{
+    display: flex;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    list-style-type: none;
+    margin-right: 8px;
+}
+
+ul li::before{
+    content: \f004;
+    font-family: 'font awesome 5 free';
+    font-weight: 900;
+
+}
+
+nav ul li:nth-child(odd){ /* indico numero de hijo de la lista*/
+    background-color: aqua;
+
+}
+
+nav ul li:nth-child(2){ /* indico numero de hijo de la lista*/
+    background-color: red;
+   
+}
+
+main article:nth-of-type(2){
+    background-color: aqua;
+}
+
+a:visited{
+    color: chartreuse;
+}
+
+a:active{
+    background-color: chocolate;
+}
+
+button{
+    background-color: cornflowerblue;
+    color: cornsilk;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: darkblue;
+}
+
+/* :FOCUS VA A EN INPUTS*/
+
+input[type=text], select, input[type=password], input[type=email]{
+    width: 620px;
+    margin:10px;
+    margin-left: calc(50% - (620px / 2) ); 
+    height: 40px;
+    padding-left: 20px;
+    
+}
+
+input[type=password]:invalid{
+    color: darkmagenta;
+}
+
+

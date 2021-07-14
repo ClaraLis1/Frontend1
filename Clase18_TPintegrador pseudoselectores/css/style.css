@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+html{
+    font-size: 20px;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.navSup{
+    background-color: #222222;
+    color: #F3F3F3;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navInf, .barraFooter{
+    background-color: #F0A83E;
+}
+
+.navInf{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 22px 40px 22px 46px;
+}
+
+.containerSelects{
+    display: flex;
+    justify-content: space-evenly;
+    width: 400px;
+}
+
+.navSup p{
+    padding-left: 90px;
+}
+
+nav ul{
+    width: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.titulos, .itemDestacado, .menuDestacados, .contacto h3{
+    color: #3C2313;
+}
+
+.contacto, .titulos, .menuDestacados, .copyRight{
+    text-align: center;
+}
+
+.section.secBanner{
+    position: absolute;
+}
+
+.imgbanner{    
+    z-index: -1;
+    width: 100%;  
+}
+
+div.textBanner{
+    position: relative;
+    top: -356px;
+    left: 300px;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.textBanner h1{
+    background-color: #FFFFFF;
+    color: #3C2313;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.textBanner span{
+    padding: 12px;
+}
+
+.textBanner button{
+    background-color: #F0A83E;
+    color: #FFFFFF;
+    font-size: 16px;
+    padding: 15px 23px;
+    text-transform: uppercase;
+    border-style: none;
+}
+
+/* ---- Arranca section 2-----*/
+
+section.productos{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -100px;
+}
+
+#imgPatita{
+    width: 100px;
+    margin-left: calc(50% - (100px / 2) );
+}
+
+.titulos{
+    font-size: 40px;
+}
+
+.itemDestacado{
+    font-weight: bold;
+}
+
+ul.menuDestacados li{
+    display: inline-block;
+}
+
+.menuDestacados li a{
+    color: #666666;
+    padding: 0px 10px;
+}
+
+/* ---- Arranca section 3-----*/
+
+.precioDestacado{
+    color: #F0A83E;
+    font-weight: bold;
+}
+
+main ul li, header ul li{
+    display: inline;
+    padding-left:3px;
+    padding-right: 3px;
+}
+
+.productosDestacados{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+section.productos article{
+    text-align: center;
+}
+
+section.productos div.articulos{
+    display: flex;
+    justify-content: space-between;
+}
+
+section.productos div.articulos article{
+    margin: 20px;
+}
+
+img.destacados{
+    width: 265px;
+}
+
+/*-----------contacto-----------*/
+
+section.contacto form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+section.contacto h3{
+    margin-bottom: 20px;
+}
+
+section.contacto form input{
+    font-size: 9px;
+    color: #FFFFFF;
+    background-color: #3C2313;
+    margin: 5px 0px;
+    padding: 15px;
+    text-align: left;
+    width: 340px;
+    border-radius: 16px;
+}
+
+
+section.contacto div button{
+    margin: 25px 30px 35px;
+    padding: 8px 25px;
+    border-radius: 16px;
+    color: #FFFFFF;
+    border: none;
+}
+
+section.contacto div button.resetButton{
+    background-color: #8A8787;
+}
+
+section.contacto div button.sendButton{
+    background-color: #F0A83E;
+}
+
+/*--------------Footer-----------*/
+footer{
+    background-color:#3C2313;
+    color: #FFFFFF;
+}
+
+footer section.barraFooter{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer section.barraFooter span{
+    font-size: 30px;
+    
+}
+
+footer section.barraFooter i{
+    margin:0px 20px 0px 5px;
+}
+
+footer section.barraFooter form{
+    display: flex;
+    align-items: center;
+}
+
+footer section.barraFooter form input{
+    font-size: 9px;
+    background-color: #FFFFFF;
+    margin: 5px 5px;
+    padding: 12px;
+    text-align: left;
+    width: 340px;
+    border-radius: 16px;
+    border: none;
+}
+
+footer section.barraFooter button{
+    padding: 8px;
+    border-radius: 16px;
+    color:  #FFFFFF;
+    background-color:  #3C2313;    
+    border: none;
+    
+}
+
+ul.footerList i{
+    padding: 5px 5px 5px 50px;
+    font-size: 40px;
+}
+
+ul.footerList li{
+    padding-left: 50px;
+    font-size: 25px;
+}
+
+ul.footerList li ul li{
+    font-size: 0.7rem;
+    display: inline;
+    padding: 0px 0px 0px 90px;
+}
+
+section.footerBottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section.footerBottom img{
+    width: 200px;
+    margin-right: 50px;
+}
+
+.copyRight{
+    text-align: center;
+    background-color: #222222;
+    font-size: smaller;
+} 
+
+@media (max-width: 420px) {
+
+    section.productos{
+        margin-top: 20px;
+    }
+
+
+    section.productos div.articulos{
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer section.barraFooter{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    footer section.barraFooter span{
+       font-size: 0.75rem;
+    }
+
+    footer section.barraFooter div{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    footer section.barraFooter span.formulario{
+        font-size: 0.5rem;
+        width: 300px;
+        padding: 8px 20px 8px 3px;
+    }
+    
+    footer section.barraFooter button{
+        font-size: 0.5rem;
+        padding: 3px;
+           
+    }
+
+    section.footerBottom{
+        display: flex;
+        flex-direction: column-reverse;
+        /* justify-content: center;
+        align-items: center;
+         */
+    }
+   
+    section.footerBottom img{
+       margin-right: 0px;
+    }
+}

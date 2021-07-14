@@ -1,0 +1,43 @@
+/*para traer variables*/
+
+@import "var.css"; 
+
+*{
+    box-sizing: content-box;
+    margin: 0;
+}
+
+/* las variables se puede poner al principio o importar de otro css*/
+/* :root{
+    --medida:20px;
+    --color--claro: #e9e9e9;
+    --tiempo: 1s;
+    --medidados: 20%;
+}  */
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /*para ocupar el alto completo de la pantalla*/
+    align-items: center;
+}
+
+div{
+    border: 2px solid black;
+    max-width: calc( var(--medida)* 5);
+    max-height: var(--medida); /*ver como se usa*/
+    margin: 10px;
+    padding: 10px;
+}
+
+div:nth-child(even){
+    background:cadetblue;
+    align-self: flex-end; /*el padre debe ser flex*/
+}
+
+div:nth-child(odd){
+    background-color: darksalmon;
+    align-self: flex-start;
+}

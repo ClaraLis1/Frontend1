@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap'); 
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* background: red; 
+    margin-top: 40px 20px;*/
+    font-family: 'Open Sans', sans-serif;
+} 
+
+.clase1, .clase2{
+    background: pink;
+    display: inline-block;
+    text-transform: uppercase;
+    margin: 0 auto;
+    font-size: 30px;
+    width: 200px;
+    padding: 20px 40px 2px 40px;
+    border: solid 10px rebeccapurple;
+    /*height: 200px; TRATAR DE NO PONER ALTO PARA QUE SE AJUSTE AL CONTENIDO*/
+
+}
+
+.clase2{
+    background: rgb(192, 255, 255);
+    font-size: smaller;
+    position: relative;
+    top:200px;
+    /*height: 200px; TRATAR DE NO PONER ALTO PARA QUE SE AJUSTE AL CONTENIDO*/
+
+}
+
+.clase2{
+    background: rgb(192, 255, 255);
+    position: absolute ; /*no le importa lo que haya abajo*/
+    top:40px;
+    left: 150px;
+
+}

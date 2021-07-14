@@ -1,0 +1,7 @@
+form [type=text]{
+    color: blue;
+}
+
+input::placeholder{
+    color: pink;
+}

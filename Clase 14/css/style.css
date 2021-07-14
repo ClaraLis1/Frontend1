@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html{
+    font-size: 30px;
+}
+
+body{
+    
+}
+
+section{
+    height: 100vh; /* mide lo que mide el alto de pantalla*/
+    background-color: pink;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+section article{
+    border: solid 2px black;
+    height: 40%; /* funciona porque toma de referencia el alto del padre*/
+    width: 20%;
+    font-size: 20px;
+}
+
+section article p{
+    /*font-size: 0.5em;  relacionada con la medida del padre*/
+    font-size: 0.5rem;
+    
+}
+
+/*conviene usar max width e ir achicando los px, porque aplica cascada*/
+
+@media (max-width: 760px) {
+    section{
+        background-color: chartreuse;
+    }
+
+    section article{       
+        width: 45%;    
+    }    
+}
+
+@media (max-width: 420px) {
+    section{
+        background-color: cornflowerblue;
+    }
+
+    section article{       
+        width: 95%;    
+    }   
+    
+}
